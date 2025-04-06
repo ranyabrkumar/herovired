@@ -1,4 +1,5 @@
 Python Assignment
+<br/>
 Q1. In DevOps, security is a crucial aspect, and ensuring strong passwords is essential. Create a Python script to check the strength of the password. 
 
       ●       Implement a Python function called check_password_strength that takes a password string as input.
