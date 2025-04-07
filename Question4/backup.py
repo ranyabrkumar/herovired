@@ -14,6 +14,7 @@
       By running the script with the appropriate source and destination directories, it should create backups of the files in the source directory, ensuring unique file names in the destination directory.
 '''
 
+'''Importing the libraries'''
 import shutil
 import os
 from datetime import datetime
@@ -56,6 +57,7 @@ def get_backup(source,destination):
       except Exception as e:
             print(f"Error occurred while copying files: {e}")            
 
+'''Main function to execute the script'''
 if __name__ == "__main__":
       try:
             if len(sys.argv) != 3:                          # Check if the number of arguments are provided is not 3 then throw error and exit program
