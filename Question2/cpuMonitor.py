@@ -1,11 +1,6 @@
-#****************************************************************************************************************************
-#importing the required libraries
-#****************************************************************************************************************************
-import psutil
-
-
+import psutil    #importing the libraries
 #=========================================================================================
-# This script monitors the CPU usage of the system and prints it to the console.
+# This function monitors the CPU usage of the system and prints it to the console.
 # It uses the psutil library to get the CPU usage percentage.
 #*************************************************************************************
 # to run the program uninterruptedly, 
